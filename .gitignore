@@ -1,0 +1,24 @@
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# node
+node_modules/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# runtime data
+workspace/.agent/
+workspace/*
+!workspace/.gitkeep
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
